@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * This is the preferred style for multi-line
- * comments in C source code.
- * Please use it consistently.
- *
- * Description:  A column of asterisks on the left side,
-* with beginning and ending almost-blank lines.
-*/
+ * op_add - Makes the sum of two numbers
+ * Description: This is a longer description.
+ * Don't forget that a line should not exceed 80 characters.
+ * But you're totally free to use several lines to properly
+ * describe your function
+ * Return: Just returning zero
+ */
 int main(void)
 {
 	int a = sizeof(char);
