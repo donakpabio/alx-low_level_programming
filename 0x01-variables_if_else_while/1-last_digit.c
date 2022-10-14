@@ -19,10 +19,10 @@ int main(void)
 	/* your code goes there */
 	printf("Last digit of %d", n);
 
-	if (n > 0)
+	if ((n % 10) > 0)
 	{
 		printf(" is positive\n");
-	}else if (n == 0)
+	}else if ((n % 10) == 0)
 	{
 		printf(" is zero\n");
 	}else
