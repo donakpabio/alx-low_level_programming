@@ -31,7 +31,11 @@ void print_to_98(int n)
 {
 	while (n <= 98)
 	{
-		print_digit(n);
+		if (n < 0)
+		{
+			_putchar('-');
+		}
+		print_digit(abs(n));
 		if (n != 98)
 		{
 			_putchar(',');
