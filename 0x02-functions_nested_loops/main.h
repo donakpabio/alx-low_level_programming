@@ -74,3 +74,12 @@ int jack_bauer(void);
  * Return: Nothing
  */
 void times_table(void);
+
+/**
+ * add - writes the character c to stdout
+ * @a: The character to print
+ * @b: The character to print
+ *
+ * Return: result
+ */
+int add(int a, int b);
