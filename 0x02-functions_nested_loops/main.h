@@ -83,3 +83,11 @@ void times_table(void);
  * Return: result
  */
 int add(int a, int b);
+
+/**
+ * print_to_98 - writes the character c to stdout
+ * @n: The character to print
+ *
+ * Return: Nothing
+ */
+void print_to_98(int n);
