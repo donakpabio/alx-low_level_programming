@@ -14,9 +14,9 @@ void print_digit(int d)
 	if ((d - r) == 0)
 	{
 		_putchar(r + '0');
-	}else
+	} else
 	{
-		print_digit((d - r)/10);
+		print_digit((d - r) / 10);
 		_putchar(r + '0');
 	}
 }
@@ -41,7 +41,7 @@ void times_table(void)
 			if (r < 10)
 			{
 				_putchar(r + '0');
-			}else
+			} else
 			{
 				print_digit(r);
 			}
@@ -49,7 +49,7 @@ void times_table(void)
 			{
 				_putchar(',');
 			}
-			_putchar('\t');
+			_putchar(' ');
 			b++;
 		}
 		_putchar('\n');
