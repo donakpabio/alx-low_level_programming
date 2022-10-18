@@ -13,5 +13,6 @@ int _isalpha(int c)
 	int a = isalpha(c) > 0 ? 1 : 0;
 	int l = islower(c) > 0 ? 1 : 0;
 	int u = isupper(c) > 0 ? 1 : 0;
+
 	return (a && (l || u));
 }
