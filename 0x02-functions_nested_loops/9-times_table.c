@@ -9,16 +9,16 @@
  */
 void print_digit(int d)
 {
-        int r = d % 10;
+	int r = d % 10;
 
-        if ((d - r) == 0)
-        {
-                _putchar(r + '0');
-        }else
-        {
-                print_digit((d - r)/10);
-                _putchar(r + '0');
-        }
+	if ((d - r) == 0)
+	{
+		_putchar(r + '0');
+	}else
+	{
+		print_digit((d - r)/10);
+		_putchar(r + '0');
+	}
 }
 
 /**
@@ -28,7 +28,7 @@ void print_digit(int d)
  */
 void times_table(void)
 {
-       	int a = 0;
+	int a = 0;
 
 	while (a < 10)
 	{
@@ -36,11 +36,11 @@ void times_table(void)
 
 		while (b < 10)
 		{
-			int r = a*b;
-			
+			int r = a * b;
+
 			if (r < 10)
 			{
-        			_putchar(r + '0');
+				_putchar(r + '0');
 			}else
 			{
 				print_digit(r);
