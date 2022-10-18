@@ -5,7 +5,7 @@
  * print_alphabet_x10 - check the code.
  *
  * Return: Always Nothing
- */
+ *
 void print_alphabet_x10()
 {
 	for (int a=0; a<10; a++)
@@ -18,7 +18,7 @@ void print_alphabet_x10()
 		}
 		_putchar('\n');
 	}
-}
+}*/
 
 /**
  * _putchar - check the code.
