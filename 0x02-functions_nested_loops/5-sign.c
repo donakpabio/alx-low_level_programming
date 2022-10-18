@@ -1,42 +1,25 @@
 #include <stdio.h>
-#include <ctype.h>
 #include "main.h"
 
-int _isalpha(int c)
-{
-	int a = isalpha(c) > 0 ? 1 : 0;
-	int l = islower(c) > 0 ? 1 : 0;
-	int u = isupper(c) > 0 ? 1 : 0;
-	return (a && (l || u));
-}
-
 /**
- * _putchar - check the code.
+ * print_sign - writes the character c to stdout
+ * @n: The character to print
  *
- * Return: Always Nothing
+ * Return: result
  */
-void _putchar(int c)
+int print_sign(int n)
 {
-	putchar(c);
-}
-
-/**
- * main - check the code.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-	int r;
-
-	r = _isalpha('H');
-	_putchar(r + '0');
-	r = _isalpha('o');
-	_putchar(r + '0');
-	r = _isalpha(108);
-	_putchar(r + '0');
-	r = _isalpha(';');
-	_putchar(r + '0');
-	_putchar('\n');
-	return (0);
+	if (n > 0)
+	{
+		_putchar('+');
+		return (1);
+	} else if (n == 0)
+	{
+		_putchar('0');
+		return (0);
+	} else
+	{
+		_putchar('-');
+		return (-1);
+	}
 }

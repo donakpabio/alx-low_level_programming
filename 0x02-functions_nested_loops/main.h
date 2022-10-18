@@ -36,3 +36,11 @@ int _islower(int c);
  * Return: Always one or zero
  */
 int _isalpha(int c);
+
+/**
+ * print_sign - check the code.
+ *@n: something here
+ *
+ * Return: Always one or zero
+ */
+int print_sign(int n);
