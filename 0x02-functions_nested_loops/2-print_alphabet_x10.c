@@ -24,11 +24,11 @@ void print_alphabet_x10()
  * _putchar - check the code.
  *
  * Return: Always Nothing
- */
+ *
 void _putchar(int c)
 {
 	putchar(c);
-}
+}*/
 
 /**
  * main - Entry point
