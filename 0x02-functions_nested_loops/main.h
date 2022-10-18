@@ -33,14 +33,18 @@ void print_alphabet()
  */
 void print_alphabet_x10()
 {
-	for (int a=0; a<10; a++)
-	{
-		char a;
+	int b = 0;
 
-		for (a = 'a'; a <= 'z'; a++)
+	while (b<10)
+	{
+		char a = 'a';
+
+		while (a <= 'z')
 		{
 		       	_putchar(a);
+			a++;
 		}
 		_putchar('\n');
+		b++;
 	}
 }
