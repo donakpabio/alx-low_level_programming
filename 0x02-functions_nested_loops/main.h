@@ -67,3 +67,10 @@ int print_last_digit(int n);
  * Return: result
  */
 int jack_bauer(void);
+
+/**
+ * times_table - check the code.
+ *
+ * Return: Nothing
+ */
+void times_table(void);
