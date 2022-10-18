@@ -20,6 +20,40 @@ int print_last_digit(int n)
         return (r);
 }
 
+int jack_bauer(void)
+{
+        int h = 0;
+
+        while (h < 24)
+        {
+                int m = 0;
+
+                while (m < 60)
+                {
+                        if (h < 10)
+                        {
+                                _putchar('0');
+                        }
+                        int a = 0;
+                        while (a<2)
+                        {
+                                _putchar('0' + (h + "")[a]);
+                                a++;
+                        }
+                        _putchar(':');
+                        if (m < 10)
+                        {
+                                _putchar('0');
+                        }
+                        _putchar('0' + m);
+                        _putchar('\n');
+                        m++;
+                }
+                h++;
+        }
+        return (0);
+}
+
 /**
  * _putchar - check the code.
  *
@@ -37,7 +71,8 @@ void _putchar(int c)
  */
 int main(void)
 {
-	int r = abs(-1024);
+	jack_bauer();
+	/**int r = abs(-1024);
 
 	r = r < 0 ? (r * -1) : r;
 
@@ -45,7 +80,7 @@ int main(void)
 	r = print_last_digit(r);
 	_putchar('0' + r);
 	
-	/**r = _isalpha('H');
+	r = _isalpha('H');
 	_putchar(r + '0');
 	r = _isalpha('o');
 	_putchar(r + '0');
