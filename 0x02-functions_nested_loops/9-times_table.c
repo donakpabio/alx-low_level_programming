@@ -50,6 +50,10 @@ void times_table(void)
 				_putchar(',');
 			}
 			_putchar(' ');
+			if (b > 0 && r < 10)
+			{
+				_putchar(' ');
+			}
 			b++;
 		}
 		_putchar('\n');
