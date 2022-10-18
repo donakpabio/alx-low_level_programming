@@ -5,9 +5,9 @@
  * print_digit - writes the character c to stdout
  * @d: The character to print
  *
- * Return: digit
+ * Return: Nothing
  */
-int print_digit(int d)
+void print_digit(int d)
 {
         int r = d % 10;
         int e;
@@ -15,7 +15,6 @@ int print_digit(int d)
         if ((d - r) == 0)
         {
                 _putchar(r + '0');
-                e = 0;
         }else
         {
                 print_digit((d - r)/10);
