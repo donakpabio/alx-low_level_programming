@@ -10,7 +10,6 @@
 void print_digit(int d)
 {
         int r = d % 10;
-        int e;
 
         if ((d - r) == 0)
         {
