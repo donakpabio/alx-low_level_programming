@@ -5,7 +5,7 @@
  *
  * Return: Always Nothing.
  */
-void _putchar(int c);
+void _putchar(char c);
 
 /**
  * print_alphabet - check the code.
