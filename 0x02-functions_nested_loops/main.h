@@ -52,3 +52,11 @@ int print_sign(int n);
  * Return: result
  */
 int _abs(int n);
+
+/**
+ * print_last_digit - check the code.
+ *@n: something here
+ *
+ * Return: result
+ */
+int print_last_digit(int n);
