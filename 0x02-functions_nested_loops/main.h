@@ -60,3 +60,10 @@ int _abs(int n);
  * Return: result
  */
 int print_last_digit(int n);
+
+/**
+ * jack_bauer - check the code.
+ *
+ * Return: result
+ */
+int jack_bauer(void);
