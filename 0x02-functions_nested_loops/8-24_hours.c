@@ -1,6 +1,26 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * print_digit - writes the character c to stdout
+ * @d: The character to print
+ *
+ * Return: Nothing
+ */
+void print_digit(int d)
+{
+        int r = d % 10;
+
+        if ((d - r) == 0)
+        {
+                _putchar(r + '0');
+        } else
+        {
+                print_digit((d - r) / 10);
+                _putchar(r + '0');
+        }
+}
+
 
 /**
  * jack_bauer - check the code.
@@ -21,13 +41,13 @@ int jack_bauer(void)
 			{
 				_putchar('0');
 			}
-			_putchar('0' + h);
+			print_digit(h);
 			_putchar(':');
 			if (m < 10)
 			{
 				_putchar('0');
 			}
-			_putchar('0' + m);
+			print_digit(m);
 			_putchar('\n');
 			m++;
 		}
