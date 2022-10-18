@@ -2,36 +2,16 @@
 #include <ctype.h>
 #include "main.h"
 
-int _islower(int c)
-{
-	return islower(c) > 0 ? 1 : 0;
-}
-
 /**
- * _putchar - check the code.
+ * _isalpha - writes the character c to stdout
+ * @c: The character to print
  *
- * Return: Always Nothing
+ * Return: result
  */
-void _putchar(int c)
+int _isalpha(int c)
 {
-	putchar(c);
-}
-
-/**
- * main - check the code.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-	int r;
-	
-	r = _islower('H');
-	_putchar(r + '0');
-	r = _islower('o');
-	_putchar(r + '0');
-	r = _islower(108);
-	_putchar(r + '0');
-	_putchar('\n');
-	return (0);
+	int a = isalpha(c) > 0 ? 1 : 0;
+	int l = islower(c) > 0 ? 1 : 0;
+	int u = isupper(c) > 0 ? 1 : 0;
+	return (a && (l || u));
 }
