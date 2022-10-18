@@ -20,3 +20,11 @@ void print_alphabet();
  * Return: Always Nothing
  */
 void print_alphabet_x10();
+
+/**
+ * _islower - check the code.
+ *@c: something here
+ *
+ * Return: Always one or zero
+ */
+int _islower(int c);
