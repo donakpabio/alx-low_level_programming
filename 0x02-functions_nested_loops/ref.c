@@ -14,7 +14,7 @@ int _isalpha(int c)
 
 int print_last_digit(int n)
 {
-        int r = (n < 0 ? ((unsigned int)r * -1) % 10 : ((unsigned int)r % 10));
+        int r = (n == abs(n) ? ((unsigned int)r * -1) % 10 : (abs(r) % 10));
 
         _putchar(r + '0');
         return (r);
@@ -37,7 +37,7 @@ void _putchar(int c)
  */
 int main(void)
 {
-	int r = abs(INT_MIN);
+	int r = abs(-1024);
 
 	r = r < 0 ? (r * -1) : r;
 
