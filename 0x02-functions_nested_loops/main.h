@@ -4,11 +4,8 @@
  * _putchar - check the code.
  *
  * Return: Always Nothing.
- *
-void _putchar(int c)
-{
-	putchar(c);
-}*/
+ */
+void _putchar(int c);
 
 /**
  * print_alphabet - check the code.
