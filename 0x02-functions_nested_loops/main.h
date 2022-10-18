@@ -44,3 +44,11 @@ int _isalpha(int c);
  * Return: Always one or zero
  */
 int print_sign(int n);
+
+/**
+ * _abs - check the code.
+ *@n: something here
+ *
+ * Return: result
+ */
+int _abs(int n);
