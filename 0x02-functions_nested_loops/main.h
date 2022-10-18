@@ -28,3 +28,11 @@ void print_alphabet_x10();
  * Return: Always one or zero
  */
 int _islower(int c);
+
+/**
+ * _isalpha - check the code.
+ *@c: something here
+ *
+ * Return: Always one or zero
+ */
+int _isalpha(int c);
