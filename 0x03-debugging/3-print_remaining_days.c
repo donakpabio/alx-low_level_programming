@@ -26,7 +26,7 @@ int is_leap_year(int y)
 int days_in_month(int m, int y)
 {
 	int days[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-	return (m != 2 ? days[m - 1] : (is_leap_year(y) ? 29 : days[m -1]));
+	return (m != 2 ? days[m - 1] : (is_leap_year(y) ? 29 : days[m - 1]));
 }
 
 /**
