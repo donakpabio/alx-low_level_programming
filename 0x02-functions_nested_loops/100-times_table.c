@@ -22,7 +22,7 @@ void print_digit(int d)
 }
 
 /**
- * times_table - writes the character c to stdout
+ * print_times_table - writes the character c to stdout
  * @n: times table
  *
  * Return: Nothing
@@ -53,13 +53,7 @@ void print_times_table(int n)
 						_putchar(' ');
 					}
 				}
-				if (r < 10)
-				{
-					_putchar(r + '0');
-				} else
-				{
-					print_digit(r);
-				}
+				print_digit(r);
 				if (b != n)
 				{
 					_putchar(',');
