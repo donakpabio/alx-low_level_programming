@@ -11,7 +11,7 @@
 void print_digit(int d)
 {
 	int r = d % 10;
-	
+
 	if ((d - r) == 0)
 	{
 		_putchar(r + '0');
@@ -46,7 +46,8 @@ void print_to_98(int n)
 			}
 			n++;
 		}
-	} else{
+	} else
+	{
 		while (n >= 98)
 		{
 			print_digit(n);
