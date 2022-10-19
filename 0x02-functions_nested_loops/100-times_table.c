@@ -60,7 +60,7 @@ void print_times_table(int n)
 				{
 					print_digit(r);
 				}
-				if (b != 9)
+				if (b != (n-1))
 				{
 					_putchar(',');
 				}
