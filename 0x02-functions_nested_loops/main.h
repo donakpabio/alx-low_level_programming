@@ -91,3 +91,11 @@ int add(int a, int b);
  * Return: Nothing
  */
 void print_to_98(int n);
+
+/**
+ * print_times_table - check the code.
+ * @n: the number
+ *
+ * Return: Nothing
+ */
+void print_times_table(int n);
