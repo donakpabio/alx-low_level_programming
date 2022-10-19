@@ -33,11 +33,11 @@ void print_times_table(int n)
 	{
 		int a = 0;
 
-		while (a < n)
+		while (a <= n)
 		{
 			int b = 0;
 
-			while (b < n)
+			while (b <= n)
 			{
 				int r = a * b;
 
