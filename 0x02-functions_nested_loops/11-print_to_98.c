@@ -30,19 +30,33 @@ void print_digit(int d)
  */
 void print_to_98(int n)
 {
-	while (n <= 98)
+	if (n < 98)
 	{
-		if (n < 0)
+		while (n <= 98)
 		{
-			_putchar('-');
+			if (n < 0)
+			{
+				_putchar('-');
+			}
+			print_digit(abs(n));
+			if (n != 98)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			n++;
 		}
-		print_digit(abs(n));
-		if (n != 98)
+	} else{
+		while (n >= 98)
 		{
-			_putchar(',');
-			_putchar(' ');
+			print_digit(n);
+			if (n != 98)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			n--;
 		}
-		n++;
 	}
-	_putchar('\n');
+		_putchar('\n');
 }
