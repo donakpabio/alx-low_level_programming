@@ -47,6 +47,10 @@ void print_times_table(int n)
 					if (r < 10)
 					{
 						_putchar(' ');
+						_putchar(' ');
+					} else if (r >= 10 && <= 99)
+					{
+						_putchar(' ');
 					}
 				}
 				if (r < 10)
