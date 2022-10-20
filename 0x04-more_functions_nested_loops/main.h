@@ -59,4 +59,12 @@ void more_numbers(void);
  *
  * Return: Nothing
  */
-void print_line(int n)
+void print_line(int n);
+
+/**
+ * print_diagonal - check the code.
+ *@n: input
+ *
+ * Return: Nothing
+ */
+void print_diagonal(int n);
