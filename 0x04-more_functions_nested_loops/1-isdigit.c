@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <ctype.h>
 #include "main.h"
 
 /**
@@ -8,5 +8,5 @@
  */
 int _isdigit(int c)
 {
-	return (isdigit(c) > 0 ? 1 : 0);	
+	return (isdigit(c) > 0 ? 1 : 0);
 }
