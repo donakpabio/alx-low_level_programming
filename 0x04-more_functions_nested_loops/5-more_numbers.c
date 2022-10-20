@@ -22,7 +22,6 @@ void print_digit(int d)
 
 /**
  * more_numbers - check the code.
- * 
  * Return: Nothing
  */
 void more_numbers(void)

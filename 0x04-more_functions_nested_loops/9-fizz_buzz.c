@@ -21,9 +21,7 @@ void print_digit(int d)
 }
 
 /**
- * print_square - check the code.
- *@size: input
- *
+ * fizz_buzz - check the code.
  * Return: Nothing
  */
 void fizz_buzz(void)
