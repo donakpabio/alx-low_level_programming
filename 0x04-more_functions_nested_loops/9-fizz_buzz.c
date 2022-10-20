@@ -43,7 +43,10 @@ void fizz_buzz(void)
 		{
 			print_digit(r);
 		}
-		putchar(' ');
+		if (r != 100)
+		{
+			putchar(' ');
+		}
 		r++;
 	}
 	putchar('\n');
@@ -51,7 +54,6 @@ void fizz_buzz(void)
 
 /**
  * main - check the code.
- *
  * Return: 0
  */
 int main(void)
