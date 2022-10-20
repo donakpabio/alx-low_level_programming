@@ -76,3 +76,11 @@ void print_diagonal(int n);
  * Return: Nothing
  */
 void print_square(int size);
+
+/**
+ * print_triangle - check the code.
+ *@size: input
+ *
+ * Return: Nothing
+ */
+void print_triangle(int size);
