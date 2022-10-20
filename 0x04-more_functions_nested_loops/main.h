@@ -14,3 +14,11 @@ void _putchar(int c);
  * Return: Always one or zero
  */
 int _isupper(int c);
+
+/**
+ * _isdigit - check the code.
+ *@c: something here
+ *
+ * Return: Always one or zero
+ */
+int _isdigit(int c);
