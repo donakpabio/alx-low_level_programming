@@ -68,3 +68,11 @@ void print_line(int n);
  * Return: Nothing
  */
 void print_diagonal(int n);
+
+/**
+ * print_square - check the code.
+ *@size: input
+ *
+ * Return: Nothing
+ */
+void print_square(int size);
