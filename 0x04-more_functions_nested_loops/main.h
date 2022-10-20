@@ -93,8 +93,8 @@ void times_table(void);
 
 /**
  * add - writes the character c to stdout
- * @a: The character to print
- * @b: The character to print
+ *@a: The character to print
+ *@b: The character to print
  *
  * Return: result
  */
@@ -102,8 +102,8 @@ int add(int a, int b);
 
 /**
  * mul - writes the character c to stdout
- * @a: The character to print
- * @b: The character to print
+ *@a: The character to print
+ *@b: The character to print
  *
  * Return: result
  */
@@ -111,7 +111,7 @@ int mul(int a, int b);
 
 /**
  * print_to_98 - writes the character c to stdout
- * @n: The character to print
+ *@n: The character to print
  *
  * Return: Nothing
  */
@@ -119,7 +119,7 @@ void print_to_98(int n);
 
 /**
  * print_times_table - check the code.
- * @n: the number
+ *@n: the number
  *
  * Return: Nothing
  */
@@ -148,7 +148,7 @@ void more_numbers(void)
 
 /**
  * print_line - check the code.
- * @n: the number
+ *@n: the number
  *
  * Return: Nothing
  */

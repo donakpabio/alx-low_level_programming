@@ -3,7 +3,7 @@
 
 /**
  * _isupper - check the code.
- * @c: input
+ *@c: input
  * Return: result
  */
 int _isupper(int c)
