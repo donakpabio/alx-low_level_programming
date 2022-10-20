@@ -17,7 +17,7 @@ void fibonacci(void)
 	{
 		h = f + l;
 		printf("%ld", h);
-		if (i != (48 -1))
+		if (i != (48 - 1))
 		{
 			putchar(',');
 			putchar(' ');
