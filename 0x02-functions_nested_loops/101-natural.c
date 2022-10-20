@@ -22,7 +22,10 @@ void naturual_num()
 
 	while (a < 1024)
 	{
-		s5 = s5 + a;
+		if (a % 3 != 0)
+		{
+			s5 = s5 + a;
+		}
 		a = a + 5;
 	}
 
