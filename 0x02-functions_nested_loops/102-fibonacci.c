@@ -7,18 +7,25 @@
  */
 void fibonacci(void)
 {
-	int f = 1;
-	int l = 2;
-	int h = 0;
+	long f = 1;
+	long l = 2;
+	long h = 0;
+	int i = 0;
 
 	printf("1, 2, ");
-	while (l <= 50)
+	while (i < 48)
 	{
 		h = f + l;
-		printf("%d, ", h);
+		printf("%ld", h);
+		if (i != (48 -1))
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		f = l;
 		l = h;
-	}	
+		i++;
+	}
 
 	putchar('\n');
 }
