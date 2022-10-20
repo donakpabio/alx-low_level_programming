@@ -4,7 +4,7 @@
 /**
 * is_leap_year - takes a date and prints how many days are
 * left in the year, taking leap years into account
-* @y: year
+*@y: year
 * Return: Something
 */
 int is_leap_year(int y)
@@ -19,8 +19,8 @@ int is_leap_year(int y)
 /**
 * days_in_month - takes a date and prints how many days are
 * left in the year, taking leap years into account
-* @m: day of month
-* @y: year
+*@m: day of month
+*@y: year
 * Return: Something
 */
 int days_in_month(int m, int y)
@@ -32,8 +32,8 @@ int days_in_month(int m, int y)
 /**
 * days_before_month - takes a date and prints how many days are
 * left in the year, taking leap years into account
-* @m: day of month
-* @y: year
+*@m: day of month
+*@y: year
 * Return: Something
 */
 int days_before_month(int m, int y)
@@ -52,7 +52,7 @@ int days_before_month(int m, int y)
 /**
 * days_in_year - takes a date and prints how many days are
 * left in the year, taking leap years into account
-* @y: year
+*@y: year
 * Return: Something
 */
 int days_in_year(int y)
@@ -63,8 +63,8 @@ int days_in_year(int y)
 /**
 * days_after_month - takes a date and prints how many days are
 * left in the year, taking leap years into account
-* @m: day of month
-* @y: year
+*@m: day of month
+*@y: year
 * Return: Something
 */
 int days_after_month(int m, int y)
@@ -83,9 +83,9 @@ int days_after_month(int m, int y)
 /**
 * days_remaining - takes a date and prints how many days are
 * left in the year, taking leap years into account
-* @d: month in number format
-* @m: day of month
-* @y: year
+*@d: month in number format
+*@m: day of month
+*@y: year
 * Return: Something
 */
 int days_remaining(int d, int m, int y)
@@ -96,9 +96,9 @@ int days_remaining(int d, int m, int y)
 /**
 * days_before - takes a date and prints how many days are
 * left in the year, taking leap years into account
-* @d: month in number format
-* @m: day of month
-* @y: year
+*@d: month in number format
+*@m: day of month
+*@y: year
 * Return: Something
 */
 int days_before(int d, int m, int y)
