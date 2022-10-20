@@ -14,4 +14,3 @@ void _putchar(int c);
  * Return: Always one or zero
  */
 int _isupper(int c);
-
