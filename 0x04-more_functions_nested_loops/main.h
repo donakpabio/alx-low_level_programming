@@ -52,3 +52,11 @@ void print_most_numbers(void);
  * Return: Always Nothing.
  */
 void more_numbers(void);
+
+/**
+ * print_line - check the code.
+ * @n: input
+ *
+ * Return: Nothing
+ */
+void print_line(int n)
