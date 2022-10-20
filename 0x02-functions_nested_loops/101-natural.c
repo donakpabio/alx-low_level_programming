@@ -5,7 +5,7 @@
  *
  * Return: Always Nothing
  */
-void naturual_num()
+void naturual_num(void)
 {
 
 	int s3 = 0;
@@ -29,7 +29,7 @@ void naturual_num()
 		a = a + 5;
 	}
 
-	printf("The answer is: %d\n", (s3 + s5));
+	printf("%d\n", (s3 + s5));
 }
 
 /**
