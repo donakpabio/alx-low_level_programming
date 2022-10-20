@@ -119,7 +119,7 @@ int is_valid(int d, int m, int y)
 	int a = (m >= 1 && m <= 12);
 	int b = (d >= 1 && d <= days_in_month(m, y));
 	int c = (y >= 1000 && y <= 9999);
-	
+
 	return (a && b && c);
 }
 
@@ -135,8 +135,8 @@ void print_remaining_days(int month, int day, int year)
 {
 	if (is_valid(day, month, year))
 	{
-        	printf("Day of the year: %d\n", days_before(day, month, year));
-        	printf("Remaining days: %d\n", days_remaining(day, month, year));
+		printf("Day of the year: %d\n", days_before(day, month, year));
+		printf("Remaining days: %d\n", days_remaining(day, month, year));
 	} else
 	{
 		printf("Invalid date: %02d/%02d/%04d\n", month, day, year);
