@@ -31,3 +31,10 @@ int _isdigit(int c);
  * Return: Always one or zero
  */
 int mul(int a, int b);
+
+/**
+ * print_numbers - check the code.
+ *
+ * Return: Always Nothing.
+ */
+void print_numbers(void);
