@@ -8,6 +8,14 @@
 void _putchar(int c);
 
 /**
+ * print_digit - writes the character c to stdout
+ * @d: The character to print
+ *
+ * Return: Nothing
+ */
+void print_digit(int d);
+
+/**
  * _isupper - check the code.
  *@c: something here
  *
