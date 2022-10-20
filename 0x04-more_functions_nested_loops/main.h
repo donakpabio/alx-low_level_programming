@@ -22,3 +22,12 @@ int _isupper(int c);
  * Return: Always one or zero
  */
 int _isdigit(int c);
+
+/**
+ * mul - check the code.
+ *@a: something here
+ *@b: input
+ *
+ * Return: Always one or zero
+ */
+int mul(int a, int b);
