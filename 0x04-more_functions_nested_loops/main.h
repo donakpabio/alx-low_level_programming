@@ -38,3 +38,10 @@ int mul(int a, int b);
  * Return: Always Nothing.
  */
 void print_numbers(void);
+
+/**
+ * print_most_numbers - check the code.
+ *
+ * Return: Always Nothing.
+ */
+void print_most_numbers(void);
