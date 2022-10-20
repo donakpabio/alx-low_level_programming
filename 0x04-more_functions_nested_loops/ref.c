@@ -76,7 +76,7 @@ void _putchar(int c)
  */
 int main(void)
 {
-	jack_bauer();
+	printf("This is it:%d", isdigit('1'));
 	/**int r = abs(-1024);
 
 	r = r < 0 ? (r * -1) : r;

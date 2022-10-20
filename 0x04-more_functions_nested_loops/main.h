@@ -38,6 +38,14 @@ int _islower(int c);
 int _isupper(int c);
 
 /**
+ * _isdigit - check the code.
+ *@c: something here
+ *
+ * Return: Always one or zero
+ */
+int _isdigit(int c);
+
+/**
  * _isalpha - check the code.
  *@c: something here
  *
@@ -93,6 +101,15 @@ void times_table(void);
 int add(int a, int b);
 
 /**
+ * mul - writes the character c to stdout
+ * @a: The character to print
+ * @b: The character to print
+ *
+ * Return: result
+ */
+int mul(int a, int b);
+
+/**
  * print_to_98 - writes the character c to stdout
  * @n: The character to print
  *
@@ -107,3 +124,32 @@ void print_to_98(int n);
  * Return: Nothing
  */
 void print_times_table(int n);
+
+/**
+ * print_numbers - check the code.
+ *
+ * Return: Nothing
+ */
+void print_numbers(void);
+
+/**
+ * print_most_numbers - check the code.
+ *
+ * Return: Nothing
+ */
+void print_most_numbers(void);
+
+/**
+ * more_numbers - check the code.
+ *
+ * Return: Nothing
+ */
+void more_numbers(void)
+
+/**
+ * print_line - check the code.
+ * @n: the number
+ *
+ * Return: Nothing
+ */
+void print_line(int n);
