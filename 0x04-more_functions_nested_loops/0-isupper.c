@@ -3,10 +3,10 @@
 
 /**
  * _isupper - check the code.
- *@c: input
+ * @c: input
  * Return: result
  */
 int _isupper(int c)
 {
-	return (isupper(c) > 0 ? 1 : 0);	
+	return (isupper(c) > 0 ? 1 : 0);
 }
