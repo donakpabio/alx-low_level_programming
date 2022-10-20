@@ -45,3 +45,10 @@ void print_numbers(void);
  * Return: Always Nothing.
  */
 void print_most_numbers(void);
+
+/**
+ * more_numbers - check the code.
+ *
+ * Return: Always Nothing.
+ */
+void more_numbers(void);
