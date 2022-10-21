@@ -16,6 +16,14 @@ void _putchar(int c);
 void print_digit(int d);
 
 /**
+ * print_number - writes the character c to stdout
+ * @d: The character to print
+ *
+ * Return: Nothing
+ */
+void print_number(int d);
+
+/**
  * _isupper - check the code.
  *@c: something here
  *
