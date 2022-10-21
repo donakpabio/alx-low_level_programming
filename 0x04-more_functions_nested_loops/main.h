@@ -17,11 +17,11 @@ void print_digit(int d);
 
 /**
  * print_number - writes the character c to stdout
- * @d: The character to print
+ * @n: The character to print
  *
  * Return: Nothing
  */
-void print_number(int d);
+void print_number(int n);
 
 /**
  * _isupper - check the code.

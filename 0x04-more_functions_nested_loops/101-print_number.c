@@ -4,24 +4,24 @@
 
 /**
  * print_number - writes the character c to stdout
- * @d: The character to print
+ * @n: The character to print
  *
  * Return: Nothing
  */
-void print_number(int d)
+void print_number(int n)
 {
-	int r = abs(d) % 10;
+	int r = abs(n) % 10;
 
-	if (((d >= 0 ? d - r : d + r) == 0))
+	if (((n >= 0 ? n - r : n + r) == 0))
 	{
-		if (d < 0)
+		if (n < 0)
 		{
 			_putchar('-');
 		}
 		_putchar(r + '0');
 	} else
 	{
-		print_number((d >= 0 ? d - r : d + r) / 10);
+		print_number((n >= 0 ? n - r : n + r) / 10);
 		_putchar(r + '0');
 	}
 }
