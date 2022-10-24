@@ -42,3 +42,10 @@ void print_rev(char *s);
  * Return: Nothing
  */
 void _putchar(int c);
+
+/**
+ * puts2 - Put something
+ * @str: input
+ * Return: Nothing
+ */
+void puts2(char *str);
