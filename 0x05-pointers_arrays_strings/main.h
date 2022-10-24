@@ -21,3 +21,10 @@ void swap_int(int *a, int *b);
  * Return - length
  */
 int _strlen(char *s);
+
+/**
+ * _puts - Just put
+ * @str: input
+ * Return: Nothing
+ */
+void _puts(char *str);
