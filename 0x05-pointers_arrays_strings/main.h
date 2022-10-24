@@ -14,3 +14,10 @@ void reset_to_98(int *n);
  * Return - Nothing
  */
 void swap_int(int *a, int *b);
+
+/**
+ * _strlen - Just length
+ * @s: input
+ * Return - length
+ */
+int _strlen(char *s);
