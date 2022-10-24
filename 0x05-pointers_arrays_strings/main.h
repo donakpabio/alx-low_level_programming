@@ -28,3 +28,17 @@ int _strlen(char *s);
  * Return: Nothing
  */
 void _puts(char *str);
+
+/**
+ * print_rev - Print reverse
+ * @s: input
+ * Return: Nothing
+ */
+void print_rev(char *s);
+
+/**
+ * _putchar - Put somthing
+ * @c: input
+ * Return: Nothing
+ */
+void _putchar(int c);
