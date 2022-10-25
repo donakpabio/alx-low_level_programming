@@ -13,6 +13,7 @@ void rev_string(char *s)
 	char f;
 	char l;
 	char *cc;
+
 	strcpy(cc, s);
 	
 	while (i < z)
