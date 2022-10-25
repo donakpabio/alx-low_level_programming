@@ -8,31 +8,17 @@
  */
 void rev_string(char *s)
 {
-	int z = strlen(s);
+	int l = strlen(s);
+	int e = l - 1;
 	int i = 0;
-	char f;
-	char l;
-	char *cc;
-
-	strcpy(cc, s);
+	char v;
 	
-	while (i < z)
-        {
-		f = *(cc + i);
-		l = *(cc + (z - i - 1));
+	while (i < l/2)
+	{
+		v = *(s + i);
+		*(s + i) = *(s + (e - i));
+		*(s + (e - i)) = v;
+		i++;
+	}
 
-                *(s + i) = l;
-		*(s + (z - i - 1)) = f;
-                i++;
-        }
-}
-
-int main(void)
-{
-	char a[10] = "0123456789";
-	
-	printf("%s\n", a);
-	rev_string(a);
-	printf("%s\n", a);
-	return (0);
 }
