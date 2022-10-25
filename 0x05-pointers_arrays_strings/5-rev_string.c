@@ -14,9 +14,7 @@ void rev_string(char *s)
 	char l;
 	char *cc;
 
-	cc = s;
-
-	cc =strcpy(cc, s);
+	strcpy(cc, s);
 	
 	while (i < z)
         {
@@ -27,4 +25,14 @@ void rev_string(char *s)
 		*(s + (z - i - 1)) = f;
                 i++;
         }
+}
+
+int main(void)
+{
+	char a[10] = "0123456789";
+	
+	printf("%s\n", a);
+	rev_string(a);
+	printf("%s\n", a);
+	return (0);
 }

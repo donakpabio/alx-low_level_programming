@@ -79,3 +79,10 @@ char *_strcpy(char *dest, char *src);
  * Return: Nothing
  */
 void rev_string(char *s);
+
+/**
+ * _atoi - Convert to int
+ * @s: input
+ * Return: result
+ */
+int _atoi(char *s);
