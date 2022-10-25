@@ -56,3 +56,11 @@ void puts2(char *str);
  * Return: Nothing
  */
 void puts_half(char *str);
+
+/**
+ * print_array - Print array
+ * @a: input
+ * @n: input
+ * Return: Nothing
+ */
+void print_array(int *a, int n);
