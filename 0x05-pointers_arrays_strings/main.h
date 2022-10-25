@@ -49,3 +49,10 @@ void _putchar(int c);
  * Return: Nothing
  */
 void puts2(char *str);
+
+/**
+ * puts_half - Puts half
+ * @str: input
+ * Return: Nothing
+ */
+void puts_half(char *str);
