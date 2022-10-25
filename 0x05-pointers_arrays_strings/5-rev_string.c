@@ -14,6 +14,8 @@ void rev_string(char *s)
 	char l;
 	char *cc;
 
+	cc = s;
+
 	strcpy(cc, s);
 	
 	while (i < z)
