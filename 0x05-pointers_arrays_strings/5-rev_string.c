@@ -9,21 +9,19 @@
 void rev_string(char *s)
 {
 	int z = strlen(s);
-	char r[z];
 	int i = 0;
-
-	
-	while (i < z)
-	{
-		r[i] = *(s + (z - i - 1));
-		i++;
-	}
-
-	i = 0;
+	char f;
+	char l;
+	char *cc;
+	strcpy(cc, s);
 	
 	while (i < z)
         {
-                *(s + i) = r[i];
+		f = *(cc + i);
+		l = *(cc + (z - i - 1));
+
+                *(s + i) = l;
+		*(s + (z - i - 1)) = f;
                 i++;
         }
 }
