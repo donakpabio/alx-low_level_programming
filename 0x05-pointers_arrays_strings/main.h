@@ -72,3 +72,10 @@ void print_array(int *a, int n);
  * Return: result
  */
 char *_strcpy(char *dest, char *src);
+
+/**
+ * rev_string - Reverse string
+ * @s: input
+ * Return: Nothing
+ */
+void rev_string(char *s);
