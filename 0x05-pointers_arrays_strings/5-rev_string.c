@@ -16,7 +16,7 @@ void rev_string(char *s)
 
 	cc = s;
 
-	strcpy(cc, s);
+	cc =strcpy(cc, s);
 	
 	while (i < z)
         {
