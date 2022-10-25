@@ -64,3 +64,11 @@ void puts_half(char *str);
  * Return: Nothing
  */
 void print_array(int *a, int n);
+
+/**
+ * *_strcpy - String copy
+ * @dest: input
+ * @src: input
+ * Return: result
+ */
+char *_strcpy(char *dest, char *src);
