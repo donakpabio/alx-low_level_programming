@@ -3,7 +3,7 @@
 #include <time.h>
 #include "main.h"
 
-void _crackme()
+void _start()
 {
 	int i = 0;
 	time_t t;
