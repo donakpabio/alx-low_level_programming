@@ -62,4 +62,11 @@ char *cap_string(char *);
  * Return: result
  */
 char *leet(char *);
+
+/**
+ * rot13 - rot 13 cypher
+ * @: input
+ * Return: result
+ */
+char *rot13(char *);
  
