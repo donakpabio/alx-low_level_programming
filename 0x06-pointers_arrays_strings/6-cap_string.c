@@ -18,6 +18,7 @@ int checker(char c)
                 {
                         return (1);
                 }
+		i++;
         }
         return (0);
 }
