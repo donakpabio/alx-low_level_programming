@@ -4,21 +4,29 @@
 
 /**
  * leet - Do something
- * @: input
+ * @s: input
  * Return: result
  */
-char *leet(char *)
+char *leet(char *s)
 {
-	
-}
+	char b[10] = "4307143071";
+	char a[10] = "aeotlAEOTL";
+	int l = strlen(s);
+	int i = 0;
 
-int main(void)
-{
-    char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
-    char *p;
+	while (i < l)
+	{
+		int j = 0;
 
-    p = leet(s);
-    printf("%s", p);
-    printf("%s", s);
-    return (0);
+		while (j < 10)
+		{
+			if (*(s + i) == a[j])
+			{
+				*(s + i) = b[j];
+			}
+			j++;
+		}
+		i++;
+	}
+	return (s);
 }
