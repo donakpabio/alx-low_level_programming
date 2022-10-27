@@ -69,4 +69,17 @@ char *leet(char *);
  * Return: result
  */
 char *rot13(char *);
- 
+
+/**
+ * print_number - Print number
+ * @n: input
+ * Return: Nothing
+ */
+void print_number(int n);
+
+/**
+ * _putchar - Put char
+ * @c: input
+ * Return: Nothing
+ */
+void _putchar(int c);
