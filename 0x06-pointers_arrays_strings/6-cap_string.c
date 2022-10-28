@@ -18,7 +18,12 @@ char *cap_string(char *s)
 
 		if (strchr(" \t\n,;.!?\"(){}", c) != NULL)
 		{
-			if (((i + 1) < l) && !(i == 0))
+			if (i == 0)
+			{
+				*(s + i) = toupper(*(s + i));
+                                i++;
+                                continue;
+			} else if (((i + 1) < l) && !(i == 0))
 			{
 				*(s + i + 1) = toupper(*(s + i + 1));
 				i++;
