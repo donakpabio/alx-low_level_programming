@@ -42,3 +42,18 @@ unsigned int _strspn(char *s, char *accept);
  * Return: result
  */
 char *_strpbrk(char *s, char *accept);
+
+/**
+ * strstr - Do something
+ * @haystack: input
+ * @needle: input
+ * Return: result
+ */
+char *_strstr(char *haystack, char *needle);
+
+/**
+ * print_chessboard - Print chess board
+ * @a: input
+ * Return: Nothing
+ */
+void print_chessboard(char (*a)[8]);
