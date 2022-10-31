@@ -18,12 +18,7 @@ char *cap_string(char *s)
 
 		if (strchr(" \t\n,;.!?\"(){}", c) != NULL)
 		{
-			if (i == 0)
-			{
-				*(s + i) = toupper(*(s + i));
-                                i++;
-                                continue;
-			} else if (((i + 1) < l) && !(i == 0))
+			if (((i + 1) < l) && !(i == 0))
 			{
 				*(s + i + 1) = toupper(*(s + i + 1));
 				i++;
@@ -33,4 +28,15 @@ char *cap_string(char *s)
 		i++;
 	}
 	return (s);
+}
+
+int main(void)
+{
+    char str[] = "expect the best. Prepare for the worst. Capitalize on what comes.\nhello world! hello-world 0123456hello world\thello world.hello world\n";
+    char *ptr;
+
+    ptr = cap_string(str);
+    printf("%s", ptr);
+    printf("%s", str);
+    return (0);
 }
