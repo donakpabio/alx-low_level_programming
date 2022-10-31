@@ -1,5 +1,6 @@
 #include <string.h>
-#inclue "main.h"
+#include <stdio.h>
+#include "main.h"
 
 /**
  * _memcpy - Do something
