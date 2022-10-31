@@ -57,3 +57,10 @@ char *_strstr(char *haystack, char *needle);
  * Return: Nothing
  */
 void print_chessboard(char (*a)[8]);
+
+/**
+ * _putchar - Put char
+ * *c: input
+ * Return: Nothing
+ */
+void _putchar(int c);
