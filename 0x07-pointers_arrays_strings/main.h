@@ -17,3 +17,28 @@ char *_memset(char *s, char b, unsigned int n);
  * Return: result
  */
 char *_memcpy(char *dest, char *src, unsigned int n);
+
+/**
+ * _strchr - Do something
+ * @s: input
+ * @c: input
+ * Return: result
+ */
+char *_strchr(char *s, char c);
+
+
+/**
+ * _strspn - Do something
+ * @s: input
+ * @accept: input
+ * Return: result
+ */
+unsigned int _strspn(char *s, char *accept);
+
+/**
+ * _strpbrk - Do something
+ * @s: input
+ * @accept: input
+ * Return: result
+ */
+char *_strpbrk(char *s, char *accept);
