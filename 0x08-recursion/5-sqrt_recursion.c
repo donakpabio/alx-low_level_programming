@@ -8,7 +8,7 @@
  */
 int _sqrt(int n, int i)
 {
-        if (n < 0 || n == i)
+        if (n < 0 || (n == i && n != 1))
 	{
                 return (-1);
         } else if ((i * i) == n)
