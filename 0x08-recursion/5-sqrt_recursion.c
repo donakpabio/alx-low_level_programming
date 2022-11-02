@@ -1,5 +1,23 @@
-#include <math.h>
 #include "main.h"
+
+/**
+ * _sqrt - Do something
+ * @n: input
+ * @i: input
+ * Return: result
+ */
+int _sqrt(int n, int i)
+{
+        if (n < 0 || n == i)
+	{
+                return (-1);
+        } else if ((i * i) == n)
+	{
+		return (i);
+	}
+	i++;
+        return (_sqrt(n, i));
+}
 
 /**
  * _sqrt_recursion - Do something
@@ -8,9 +26,5 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
-	{
-		return (-1);
-	}
-	return (sqrt(n));
+	return (_sqrt(n, 1));
 }
