@@ -9,7 +9,10 @@
  */
 void _print_reverse(char *s, int p)
 {
-	_putchar(*(s + p - 1));
+	if (p != 0)
+	{
+		_putchar(*(s + p - 1));
+	}
 	p--;
 	if (p > 0)
 	{
