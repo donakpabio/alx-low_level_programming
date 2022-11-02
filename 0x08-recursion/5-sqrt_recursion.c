@@ -8,15 +8,15 @@
  */
 int _sqrt(int n, int i)
 {
-        if (n < 0 || (n == i && n != 1))
+	if (n < 0 || (n == i && n != 1))
 	{
-                return (-1);
-        } else if ((i * i) == n)
+		return (-1);
+	} else if ((i * i) == n)
 	{
 		return (i);
 	}
 	i++;
-        return (_sqrt(n, i));
+	return (_sqrt(n, i));
 }
 
 /**
