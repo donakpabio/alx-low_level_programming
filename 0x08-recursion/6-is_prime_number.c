@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_prime_number - Do something
+ * is_prime - Do something
  * @n: input
  * @i: input
  * Return: result
