@@ -7,3 +7,10 @@
  * Return: result
  */
 void _putchar(int c);
+
+/**
+ * print_number - Do something
+ * @n: input
+ * Return: Nothing
+ */
+void print_number(int n)

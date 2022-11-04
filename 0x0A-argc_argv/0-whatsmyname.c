@@ -1,16 +1,21 @@
 #include <string.h>
 #include "main.h"
 
+void _putchar(int c)
+{
+	putchar(c);
+}
+
 int main(int argc, char **argv)
 {
 	int l = strlen(*(argv));
 	int i = 0;
-	char *p = *(argv);
 
 	while (i < l)
 	{
-		_putchar(*(p + i) + '0');
+		_putchar(*(*(argv) + i) + '0');
 		i++;
 	}
+	_putchar('\n');
 	exit(EXIT_SUCCESS);
 }
