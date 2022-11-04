@@ -1,11 +1,6 @@
 #include <string.h>
 #include "main.h"
 
-void _putchar(int c)
-{
-	putchar(c);
-}
-
 /**
  * print_number - Do something
  * @n: input
@@ -29,6 +24,12 @@ void print_number(int n)
 	}
 }
 
+/**
+ * main - Main
+ * @argc: input
+ * @argv: input
+ * Return: result
+ */
 int main(int argc, char **argv)
 {
 	print_number(argc - 1);
