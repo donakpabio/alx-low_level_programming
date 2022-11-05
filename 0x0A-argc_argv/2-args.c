@@ -1,11 +1,12 @@
 #include <string.h>
 #include "main.h"
 
-void _putchar(int c)
-{
-	putchar(c);
-}
-
+/**
+ * main - Main
+ * @argc: input
+ * @argv: input
+ * Return: 0 or 1
+ */
 int main(int argc, char **argv)
 {
 	while (argc--)
