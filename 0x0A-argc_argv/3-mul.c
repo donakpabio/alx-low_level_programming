@@ -1,11 +1,11 @@
-#include <string.h>
 #include "main.h"
 
-void _putchar(int c)
-{
-	putchar(c);
-}
-
+/**
+ * main - Main
+ * @argc: input
+ * @argv: input
+ * Return: 0 or 1
+ */
 int main(int argc, char **argv)
 {
 	if (argc - 1 < 2)
@@ -13,7 +13,10 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		exit(EXIT_FAILURE);
 	}
-	printf("%d\n", *(argv + 1) * *(argv + 2));
-	_puchar('\n');
+	int a = atoi(*(argv + 1));
+	int b = atoi(*(argv + 2));
+
+	int c = a * b;
+	printf("%d\n", c);
 	exit(EXIT_SUCCESS);
 }
