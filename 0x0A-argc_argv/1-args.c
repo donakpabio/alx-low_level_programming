@@ -9,7 +9,7 @@
  */
 int main(int argc, char **argv)
 {
-	if (sizeof(argv) > 0 )
+	if (sizeof(argv) > 0)
 	{
 		printf("%d\n", argc - 1);
 	}
