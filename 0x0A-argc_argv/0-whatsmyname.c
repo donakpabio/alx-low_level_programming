@@ -3,11 +3,15 @@
 
 /**
  * main - Entry point
+ * @argc: input
  * @argv: input
  * Return: 0 or 1
  */
-int main(char **argv)
+int main(int argc, char **argv)
 {
-	printf("%s\n", *(argv));
+	if (argc == 1)
+	{
+		printf("%s\n", *(argv));
+	}
 	exit(EXIT_SUCCESS);
 }
