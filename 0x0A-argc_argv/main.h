@@ -13,4 +13,4 @@ void _putchar(int c);
  * @n: input
  * Return: Nothing
  */
-void print_number(int n)
+void print_number(int n);
