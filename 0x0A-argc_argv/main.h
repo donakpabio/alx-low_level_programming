@@ -14,3 +14,10 @@ void _putchar(int c);
  * Return: Nothing
  */
 void print_number(int n);
+
+/**
+ * _isdigit - Is digit
+ * @s: input
+ * Return: result
+ */
+int _isdigit(char *s);

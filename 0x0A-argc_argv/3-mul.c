@@ -17,6 +17,7 @@ int main(int argc, char **argv)
 	int b = atoi(*(argv + 2));
 
 	int c = a * b;
+
 	printf("%d\n", c);
 	exit(EXIT_SUCCESS);
 }
