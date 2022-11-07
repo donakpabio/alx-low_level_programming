@@ -31,10 +31,10 @@ int _isdigit(char *s)
  */
 int main(int argc, char **argv)
 {
-	if ((argc - 1) != 2)
+	if (argc == 1)
 	{
 		printf("0\n");
-		return (1);
+		return (0);
 	}
 
 	if (!_isdigit(*(argv + 1)) || !_isdigit(*(argv + 2)))
