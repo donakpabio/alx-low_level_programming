@@ -37,15 +37,19 @@ int main(int argc, char **argv)
 		return (0);
 	}
 
-	if (!_isdigit(*(argv + 1)) || !_isdigit(*(argv + 2)))
-	{
-		printf("Error\n");
-		return (1);
-	}
-	int a = atoi(*(argv + 1));
-	int b = atoi(*(argv + 2));
+	int i = 1;
+	int c = 0;
 
-	int c = a + b;
+	while (i < argc)
+	{
+		if (!_isdigit(*(argv + i)))
+		{
+			printf("Error\n");
+			return (1);
+		}
+		c = c + atoi(*(argv + i));
+		i++;
+	}
 
 	printf("%d\n", c);
 	exit(EXIT_SUCCESS);
