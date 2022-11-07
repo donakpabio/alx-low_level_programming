@@ -77,7 +77,6 @@ int _strlen(char *s)
  */
 void _puts(char *s)
 {
-	return;
 }
 
 /**
@@ -88,11 +87,11 @@ void _puts(char *s)
  */
 char *_strcpy(char *dest, char *src)
 {
-	return NULL;
+	return (NULL);
 }
 
 /**
- * atoi - Do something
+ * _atoi - Do something
  * @s: input
  * Return: result
  */
