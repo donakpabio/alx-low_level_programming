@@ -9,9 +9,9 @@
  */
 int _isdigit(char *s)
 {
-	int l = strlen(s);
-	int i = 0;
+	int l = 0, i = 0;
 
+	l = strlen(s);
 	while (i < l)
 	{
 		if (isdigit(*(s + i)) == 0)
@@ -31,14 +31,13 @@ int _isdigit(char *s)
  */
 int main(int argc, char **argv)
 {
+	int i = 1, c = 0;
+
 	if (argc == 1)
 	{
 		printf("0\n");
 		return (0);
 	}
-
-	int i = 1;
-	int c = 0;
 
 	while (i < argc)
 	{
