@@ -15,3 +15,11 @@ char *create_array(unsigned int size, char c);
  * Return: result
  */
 char *_strdup(char *str);
+
+/**
+ * str_concat - Do something
+ * @s1: input
+ * @s2: input
+ * Return: result
+ */
+char *str_concat(char *s1, char *s2);
