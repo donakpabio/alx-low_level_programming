@@ -21,3 +21,11 @@ void print_number(int n);
  * Return: result
  */
 int _isdigit(char *s);
+
+/**
+ * _multiply - Do something
+ * @a: input
+ * @b: input
+ * Return: result
+ */
+int _multiply(char *a, char *b);
