@@ -31,3 +31,11 @@ char *str_concat(char *s1, char *s2);
  * Return: result
  */
 int **alloc_grid(int width, int height);
+
+/**
+ * free_grid - Do something
+ * @grid: input
+ * @height: input
+ * Return: Nothing
+ */
+void free_grid(int **grid, int height);
