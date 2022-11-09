@@ -23,3 +23,11 @@ char *_strdup(char *str);
  * Return: result
  */
 char *str_concat(char *s1, char *s2);
+
+/**
+ * alloc_grid - Do something
+ * @width: input
+ * @height: input
+ * Return: result
+ */
+int **alloc_grid(int width, int height);
