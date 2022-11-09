@@ -9,6 +9,7 @@
 char *create_array(unsigned int size, char c)
 {
 	char *ar;
+	int i = 0;
 
 	if (size < 1)
 	{
@@ -21,6 +22,9 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
-	ar[0] = c + '0';
+	while (i < size)
+	{
+		ar[i] = c;
+	}
 	return (ar);
 }
