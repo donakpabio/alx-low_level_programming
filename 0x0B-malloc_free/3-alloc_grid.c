@@ -25,10 +25,6 @@ int **alloc_grid(int width, int height)
 	{
 		int *col = malloc(width * sizeof(int));
 
-		if (col == NULL)
-		{
-			return (NULL);
-		}
 		ar[h] = col;
 		while (w < width)
 		{
