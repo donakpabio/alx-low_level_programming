@@ -8,7 +8,7 @@
  */
 int **alloc_grid(int width, int height)
 {
-	int *ar, w = 0, h = 0;
+	int **ar, w = 0, h = 0;
 
 	if (width < 1 || height < 1)
 	{
@@ -29,7 +29,7 @@ int **alloc_grid(int width, int height)
 		{
 			return (NULL);
 		}
-		ar[h] = &col;
+		ar[h] = col;
 		while (w < width)
 		{
 
