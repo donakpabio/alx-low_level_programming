@@ -1,3 +1,4 @@
+#include <limits.h>
 #include "main.h"
 
 /**
@@ -10,9 +11,9 @@ void *malloc_checked(unsigned int b)
 	int *r;
 	
 	r = malloc(b);
-	if (r == null)
+	if (r == NULL)
 	{
-		return (98);
+		exit (98);
 	}
 	return r;
 }
