@@ -22,3 +22,13 @@ dog_t *new_dog(char *name, float age, char *owner);
  * Return: Nothing
  */
 void print_dog(struct dog *d);
+
+/**
+ * init_dog - Do something
+ * @d: input
+ * @name: input
+ * @age: input
+ * @owner: input
+ * Return: Nothing
+ */
+void init_dog(struct dog *d, char *name, float age, char *owner);
