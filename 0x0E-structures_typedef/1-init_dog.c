@@ -1,3 +1,5 @@
+#include "dog.h"
+
 /**
  * init_dog - Do something
  * @d: input
