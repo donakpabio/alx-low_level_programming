@@ -32,3 +32,10 @@ void print_dog(struct dog *d);
  * Return: Nothing
  */
 void init_dog(struct dog *d, char *name, float age, char *owner);
+
+/**
+ * free_dog - Do something
+ * @d: input
+ * Return: Nothing
+ */
+void free_dog(dog_t *d);
