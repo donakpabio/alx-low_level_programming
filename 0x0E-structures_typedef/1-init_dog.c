@@ -1,6 +1,7 @@
-#ifndef INIT_GOG
+#ifndef INIT_DOG
+#define INT_DOG
 #include "dog.h"
-
+#endif
 
 /**
  * init_dog - Do something
@@ -16,4 +17,3 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	(*d).age = age;
 	(*d).owner = owner;
 }
-#endif
