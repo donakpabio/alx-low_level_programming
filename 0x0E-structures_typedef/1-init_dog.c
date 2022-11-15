@@ -1,5 +1,5 @@
-#ifndef INIT_DOG
-#define INT_DOG
+#ifndef DOG_H
+#define DOG_H
 #include "dog.h"
 #endif
 
