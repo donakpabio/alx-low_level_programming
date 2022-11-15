@@ -1,6 +1,6 @@
 #ifndef DOG_H
 #define DOG_H "dog.h"
-#include DOG_H
+#include "dog.h"
 #endif
 
 /**
