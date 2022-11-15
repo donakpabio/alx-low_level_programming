@@ -1,5 +1,7 @@
-#include <stdio.h>
-#include "dog.h"
+#ifndef DOG_H
+#define DOG_H "dog.h"
+#include DOG_H
+#endif
 
 /**
  * init_dog - Do something
@@ -17,13 +19,4 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 		(*d).age = age;
 		(*d).owner = owner;
 	}
-}
-
-int main(void)
-{
-    struct dog my_dog;
-
-    init_dog(NULL, "Poppy", 3.5, "Bob");
-    printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog.name, my_dog.age);
-    return (0);
 }
