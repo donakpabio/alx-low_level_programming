@@ -1,4 +1,7 @@
 #ifndef dog
+/**
+ * dog - struct
+ */
 struct dog
 {
 	char *name;
