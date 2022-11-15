@@ -1,7 +1,10 @@
 #ifndef STDIO_H
+#define STDIO_H
 #include <stdio.h>
 #endif
+
 #ifndef DOG_H
+#define DOG_H
 #include "dog.h"
 #endif
 
