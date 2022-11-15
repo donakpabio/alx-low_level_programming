@@ -1,7 +1,4 @@
-#ifndef DOG_H
-#define DOG_H
 #include "dog.h"
-#endif
 
 /**
  * init_dog - Do something
