@@ -1,11 +1,14 @@
+#ifndef dog
 struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 };
-
+#endif
+#ifndef dog_t
 typedef struct dog dog_t;
+#endif
 
 /**
  * new_dog - Do somthing
