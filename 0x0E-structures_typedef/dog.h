@@ -37,3 +37,12 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
  */
 void print_dog(struct dog *d);
 #endif
+
+#ifndef DOG_T_H
+#define DOG_T_H
+/**
+ * dog_t - typedef for dog
+ * Description: Something about it
+ */
+typedef struct dog dog_t;
+#endif
