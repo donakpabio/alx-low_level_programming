@@ -27,3 +27,13 @@ struct dog
  */
 void init_dog(struct dog *d, char *name, float age, char *owner);
 #endif
+
+#ifndef PRINT_DOG_H
+#define PRINT_DOG_H
+/**
+ * print_dog - Do something
+ * @d: input
+ * Return: Nothing
+ */
+void print_dog(struct dog *d);
+#endif
