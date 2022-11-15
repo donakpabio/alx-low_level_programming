@@ -46,3 +46,13 @@ void print_dog(struct dog *d);
  */
 typedef struct dog dog_t;
 #endif
+
+#ifndef FREE_DOG_H
+#define FREE_DOG_H
+/**
+ * free_dog - Do something
+ * @d: input
+ * Return: Nothing
+ */
+void free_dog(dog_t *d);
+#endif
