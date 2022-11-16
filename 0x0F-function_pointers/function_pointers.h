@@ -30,3 +30,15 @@ void print(char *name);
  */
 void _putchar(int c);
 #endif
+
+#ifndef ARRAY_ITERATOR_H
+#define ARRAY_ITERATOR_H
+/**
+ * array_iterator - Do something
+ * @array: input
+ * @size: input
+ * @action: input
+ * Return: Nothing
+ */
+void array_iterator(int *array, size_t size, void (*action)(int));
+#endif
