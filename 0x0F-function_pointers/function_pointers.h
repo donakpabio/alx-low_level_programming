@@ -10,3 +10,13 @@
  */
 void print_name(char *name, void (*f)(char *));
 #endif
+
+#ifndef PRINT_H
+#define PRINT_H
+/**
+ * print - Do something
+ * @name: input
+ * Return: Nothing
+ */
+void print(char *name);
+#endif
