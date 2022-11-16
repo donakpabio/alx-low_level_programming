@@ -11,26 +11,6 @@
 void print_name(char *name, void (*f)(char *));
 #endif
 
-#ifndef PRINT_H
-#define PRINT_H
-/**
- * print - Do something
- * @name: input
- * Return: Nothing
- */
-void print(char *name);
-#endif
-
-#ifndef _PUTCHAR_H
-#define _PUTCHAR_H
-/**
- * _putchar - Do something
- * @c: input
- * Return: Nothing
- */
-void _putchar(int c);
-#endif
-
 #ifndef ARRAY_ITERATOR_H
 #define ARRAY_ITERATOR_H
 /**
