@@ -9,18 +9,12 @@
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	int i;
-	size_t j;
+	size_t i;
 
 	i = 0;
-	j = 0;
-	while (i < array)
+	while (i < size)
 	{
-		while(j < size)
-		{
-			printf("%d\n", (*action)[i](j));
-			j++;
-		}
+		(*action)(*(array + i));
 		i++;
 	}
 }
