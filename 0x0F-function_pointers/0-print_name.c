@@ -24,7 +24,7 @@ void print(char *name)
 	i = 0;
 	while (name[i])
 	{
-		putchar(name[i]);
+		_putchar(name[i]);
 		i++;
 	}
 }
