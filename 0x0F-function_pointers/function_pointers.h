@@ -42,3 +42,15 @@ void _putchar(int c);
  */
 void array_iterator(int *array, size_t size, void (*action)(int));
 #endif
+
+#ifndef INT_INDEX_H
+#define INT_INDEX_H
+/**
+ * int_index - Do something
+ * @array: input
+ * @size: input
+ * @cmp: input
+ * Result: result
+ */
+int int_index(int *array, int size, int (*cmp)(int));
+#endif

@@ -8,22 +8,5 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	f(name);
-}
-
-/**
- * print - Do something
- * @name: input
- * Return: Nothing
- */
-void print(char *name)
-{
-	unsigned int i;
-
-	i = 0;
-	while (name[i])
-	{
-		_putchar(name[i]);
-		i++;
-	}
+	(*f)(name);
 }
