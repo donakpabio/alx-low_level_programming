@@ -1,4 +1,7 @@
+#ifndef STDIO_H
+#define STDIO_H
 #include <stdio.h>
+#endif
 
 #ifndef PRINT_NAME_H
 #define PRINT_NAME_H
