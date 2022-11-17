@@ -13,8 +13,8 @@ int main(int argc, char **argv)
 	char *o;
 
 	o = (*argv + 2);
-	a = atoi(*argv + 1));
-	b = atoi(*argv + 3));
+	a = atoi((*argv + 1));
+	b = atoi((*argv + 3));
 	if (argc != 4)
 	{
 		printf("Error\n");
