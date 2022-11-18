@@ -54,14 +54,15 @@ void print_string(const char *s)
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
-	int i;
+	int i, f;
 
 	i = (int) n;
+	f = i;
 
 	va_start(ap, n);
 	while (i > 0)
 	{
-		if ((i != n) && separator != NULL)
+		if ((i != f) && separator != NULL)
 		{
 			print_string(separator);
 		}
@@ -70,4 +71,15 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	}
 	_putchar('\n');
 	va_end(ap);
+}
+
+void _putchar(int c)
+{
+	putchar(c);
+}
+
+int main(void)
+{
+    print_numbers(", ", 4, 0, 98, -1024, 402);
+    return (0);
 }
