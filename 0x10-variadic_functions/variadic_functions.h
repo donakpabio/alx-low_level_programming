@@ -6,7 +6,7 @@
 #ifndef SUM_THEM_ALL_H
 #define SUM_THEM_ALL_H
 /**
- * sum_thm_all - Do something
+ * sum_them_all - Do something
  * @n: input
  * Return: result
  */
