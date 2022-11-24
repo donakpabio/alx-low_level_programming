@@ -1,0 +1,20 @@
+#include <string.h>
+#include <stdlib.h>
+#include "lists.h"
+
+/**
+ * list_len - Do something
+ * @h: input
+ * Return: result
+ */
+size_t list_len(const list_t *h)
+{
+	if (h->next != NULL)
+	{
+		return (list_len(h->next) + 1);
+	}
+	else
+	{
+		return (1);
+	}
+}
