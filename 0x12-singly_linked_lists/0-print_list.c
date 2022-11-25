@@ -9,14 +9,9 @@
  */
 size_t print_list(const list_t *h)
 {
-	int isnul;
+	int isnull;
 
-	if (h == NULL)
-	{
-		exit(EXIT_FAILURE);
-	}
-
-	isnull = h->str == NULL;
+	isnull = (h == NULL) || (h->str == NULL);
 	printf("[%u] %s\n", isnull ? 0 : h->len, isnull ? "(nil)" : h->str);
 	if (h->next != NULL)
 	{
