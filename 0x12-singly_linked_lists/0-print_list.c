@@ -13,6 +13,11 @@ size_t print_list(const list_t *h)
 
 	isnull = (h == NULL) || (h->str == NULL);
 	printf("[%u] %s\n", isnull ? 0 : h->len, isnull ? "(nil)" : h->str);
+	if (h == NULL)
+	{
+		exit(EXIT_FAILURE);
+	}
+
 	if (h->next != NULL)
 	{
 		return (print_list(h->next) + 1);
