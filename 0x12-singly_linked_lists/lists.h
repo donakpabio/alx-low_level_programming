@@ -72,3 +72,13 @@ list_t *add_node_end(list_t **head, const char *str);
  */
 void free_list(list_t *head);
 #endif
+
+#ifndef LAST_NODE_H
+#define LAST_NODE_H
+/**
+ * last_node - Do something
+ * @head: input
+ * Return: result
+ */
+list_t *last_node(list_t *head);
+#endif
