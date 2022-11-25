@@ -17,7 +17,7 @@ list_t *last_node(list_t *head)
 	{
 		return (head);
 	}
-	return last_node(head->next);
+	return (last_node(head->next));
 }
 
 /**
@@ -43,8 +43,8 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (ln == NULL)
 	{
 		*head = new;
-	}
-	else {
+	} else
+	{
 		ln->next = new;
 	}
 	return (*head);
