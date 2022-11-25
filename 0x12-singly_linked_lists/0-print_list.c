@@ -17,8 +17,5 @@ size_t print_list(const list_t *h)
 	{
 		return (print_list(h->next) + 1);
 	}
-	else
-	{
-		return (1);
-	}
+	return (1);
 }
