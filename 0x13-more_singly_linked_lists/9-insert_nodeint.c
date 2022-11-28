@@ -52,7 +52,12 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	at = node_at(*head, 0, index - 1);
 	if (at == NULL)
 	{
-		return (NULL);
+		if (index != 0)
+		{
+			return (NULL);
+		}
+		*head = new;
+		return (new);
 	}
 
 	new->next = at->next;
