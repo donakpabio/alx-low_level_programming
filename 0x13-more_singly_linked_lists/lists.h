@@ -105,7 +105,7 @@ listint_t *get_nodeint_at_index(const listint_t *head, unsigned int index);
 #ifndef NODE_AT_H
 #define NODE_AT_H
 /**
- * last_node - Do something
+ * node_at - Do something
  * @head: input
  * @c: counter
  * @at: at
