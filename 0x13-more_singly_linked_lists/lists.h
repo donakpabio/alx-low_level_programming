@@ -145,3 +145,14 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
  */
 int pop_listint(listint_t **head);
 #endif
+
+#ifndef DELETE_NODEINT_AT_INDEX_H
+#define DELETE_NODEINT_AT_INDEX_H
+/**
+ * delete_nodeint_at_index - Do something
+ * @head: input
+ * @index: input
+ * Return: result
+ */
+int delete_nodeint_at_index(listint_t **head, unsigned int index);
+#endif
