@@ -99,7 +99,7 @@ listint_t *last_node(listint_t *head);
  * @index: input
  * Return: result
  */
-listint_t *get_nodeint_at_index(const listint_t *head, unsigned int index);
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
 #endif
 
 #ifndef NODE_AT_H
