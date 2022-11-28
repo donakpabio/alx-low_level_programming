@@ -19,5 +19,5 @@ int sum_listint(const listint_t *head)
 		return (head->n);
 	}
 
-	return (sum_listint(h->next) + head->n);
+	return (sum_listint(head->next) + head->n);
 }
