@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- * last_node - Do something
+ * node_at - Do something
  * @head: input
  * @c: counter
  * @at: at
