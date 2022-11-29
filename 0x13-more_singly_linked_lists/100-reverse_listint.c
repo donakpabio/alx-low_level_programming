@@ -72,7 +72,7 @@ listint_t *reverse_listint(listint_t **head)
 	t = get_nodeint_at_index(*head, d);
 	while (d >= 0)
 	{
-		r = d - 1 >= 0;
+		r = (d - 1 >= 0);
 		(get_nodeint_at_index(*head, d))->next = r ? get_nodeint_at_index(*head, d - 1) : NULL;
 		d--;
 	}
