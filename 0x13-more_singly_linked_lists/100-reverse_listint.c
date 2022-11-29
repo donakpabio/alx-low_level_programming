@@ -68,10 +68,10 @@ listint_t *reverse_listint(listint_t **head)
 	listint_t *t;
 
 	d = ((int) listint_len(*head)) - 1;
-	t = gnai(*head, d);
+	t = node_at(*head, 0, d);
 	while (d >= 0)
 	{
-		(gnai(*head, d))->next = d - 1 >= 0 ? gnai(*head, d - 1) : NULL;
+		(node_at(*head, 0, d))->next = d - 1 >= 0 ? node_at(*head, 0, d - 1) : NULL;
 		d--;
 	}
 	*head = t;

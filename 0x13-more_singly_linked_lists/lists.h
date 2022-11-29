@@ -29,6 +29,16 @@ typedef struct listint_s
 size_t print_listint(const listint_t *h);
 #endif
 
+#ifndef PRINT_LISTINT_SAFE_H
+#define PRINT_LISTINT_SAFE_H
+/**
+ * print_listint_safe - Do something
+ * @h: input
+ * Return: result
+ */
+size_t print_listint_safe(const listint_t *h);
+#endif
+
 #ifndef LISTINT_LEN_H
 #define LISTINT_LEN_H
 /**
