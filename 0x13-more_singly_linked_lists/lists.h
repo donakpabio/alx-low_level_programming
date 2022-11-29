@@ -156,3 +156,13 @@ int pop_listint(listint_t **head);
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
 #endif
+
+#ifndef REVERSE_LISTINT_H
+#define REVERSE_LISTINT_H
+/**
+ * reverse_listint - Do something
+ * @head: input
+ * Return: result
+ */
+listint_t *reverse_listint(listint_t **head);
+#endif
