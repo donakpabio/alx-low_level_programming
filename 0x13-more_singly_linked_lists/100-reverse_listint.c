@@ -28,12 +28,12 @@ listint_t *node_at(listint_t *head, int c, int at)
 }
 
 /**
- * get_nodeint_at_index - Do something
+ * gnai - Do something
  * @head: input
  * @index: input
  * Return: result
  */
-listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
+listint_t *gnai(listint_t *head, unsigned int index)
 {
 	return (node_at(head, 0, (int) index));
 }
@@ -71,7 +71,7 @@ listint_t *reverse_listint(listint_t **head)
 	t = get_nodeint_at_index(*head, d);
 	while (d >= 0)
 	{
-		(get_nodeint_at_index(*head, d))->next = d - 1 >= 0 ? get_nodeint_at_index(*head, d - 1) : NULL;
+		(gnai(*head, d))->next = d - 1 >= 0 ? gnai(*head, d - 1) : NULL;
 		d--;
 	}
 	*head = t;
