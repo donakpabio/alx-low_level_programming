@@ -112,17 +112,6 @@ listint_t *last_node(listint_t *head);
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
 #endif
 
-#ifndef GNAI_H
-#define GNAI_H
-/**
- * gnai - Do something
- * @head: input
- * @index: input
- * Return: result
- */
-listint_t *gnai(listint_t *head, unsigned int index);
-#endif
-
 #ifndef NODE_AT_H
 #define NODE_AT_H
 /**
@@ -133,6 +122,18 @@ listint_t *gnai(listint_t *head, unsigned int index);
  * Return: result
  */
 listint_t *node_at(listint_t *head, int c, int at);
+#endif
+
+#ifndef CNODE_AT_H
+#define CNODE_AT_H
+/**
+ * cnode_at - Do something
+ * @head: input
+ * @c: counter
+ * @at: at
+ * Return: result
+ */
+listint_t *cnode_at(const listint_t *head, int c, int at);
 #endif
 
 #ifndef SUM_LISTINT_H
