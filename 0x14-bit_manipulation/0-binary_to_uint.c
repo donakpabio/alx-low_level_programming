@@ -3,6 +3,12 @@
 #include <stdlib.h>
 #include "main.h"
 
+/**
+ * power - Do something
+ * @x: input
+ * @y: input
+ * Return: result
+ */
 int power(int x, int y)
 {
 	int i, n;
@@ -26,6 +32,7 @@ int power(int x, int y)
 unsigned int binary_to_uint(const char *b)
 {
 	int l, n, y, x, z;
+
 	if (b == NULL)
 	{
 		return (0);
@@ -48,5 +55,5 @@ unsigned int binary_to_uint(const char *b)
 		l--;
 		y++;
 	}
-	return n;
+	return (n);
 }
