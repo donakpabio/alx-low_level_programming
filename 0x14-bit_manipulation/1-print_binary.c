@@ -13,7 +13,7 @@ void print_binary(unsigned long int n)
 		int i;
 		int h;
 
-		i = n <= INT_MAX ? 15 : 31;
+		i = n <= 2100000000 ? 15 : 31;
 		h = 0;
 		while (i >= 0)
 		{
