@@ -7,22 +7,18 @@
  */
 void print_binary(unsigned long int n)
 {
-	if (n > 0)
+	int i;
+	int s;
+
+	i = 16;
+	s = 0;
+	while (i >= 0)
 	{
-		int i;
-		int s;
+		unsigned int m;
 
-		i = 31;
-		s = 0;
-		while (i >= 0)
-		{
-			unsigned int m;
-
-			m = (1 << i);
-			s = s == 0 ? m == 1 : s;
-			printf((n & m) ? "1" : s ? "0" : "");
-			i--;
-		}
+		m = (1 << i);
+		s = s == 0 ? (n & m) ? 1 : 0 : s;
+		printf((n & m) ? "1" : s || (i == 0 && !s) ? "0" : "");
+		i--;
 	}
-	printf("0");
 }
