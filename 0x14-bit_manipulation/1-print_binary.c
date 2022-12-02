@@ -11,12 +11,14 @@ void print_binary(unsigned long int n)
 	{
 		int i;
 		int h;
+		unsigned long int m;
 
-		i = 16;
+		i = 31;
 		h = 0;
 		while (i >= 0)
 		{
-			if (n & (1 << i))
+			m = (1 << i);
+			if (n & m)
 			{
 				printf("1");
 				h = 1;
