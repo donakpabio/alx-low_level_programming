@@ -18,7 +18,7 @@ void print_binary(unsigned long int n)
 
 		m = (1 << i);
 		s = s == 0 ? (n & m) ? 1 : 0 : s;
-		printf((n & m) ? "1" : "0");
+		printf((n & m) ? "1" : s || (i == 0 && !s) ? "0" : "");
 		i--;
 	}
 }
