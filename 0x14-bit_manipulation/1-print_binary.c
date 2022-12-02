@@ -12,7 +12,7 @@ void print_binary(unsigned long int n)
 	i = 16;
 	while (i >= 0)
 	{
-		int m;
+		unsigned int m;
 
 		m = (1 << i);
 		printf((n & m) ? "1" : "0");
