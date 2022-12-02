@@ -1,3 +1,4 @@
+#include <limits.h>
 #include "main.h"
 
 /**
@@ -12,7 +13,7 @@ void print_binary(unsigned long int n)
 		int i;
 		int h;
 
-		i = 31;
+		i = n <= INT_MAX ? 15 : 31;
 		h = 0;
 		while (i >= 0)
 		{
