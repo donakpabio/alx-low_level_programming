@@ -1,5 +1,10 @@
 #include "main.h"
 
+char *int_to_binary(unsigned long int n)
+{
+	return NULL;
+}
+
 /**
  * print_binary - Do something
  * @n: input
@@ -14,7 +19,7 @@ void print_binary(unsigned long int n)
 	s = 0;
 	while (i >= 0)
 	{
-		unsigned int m;
+		unsigned long int m;
 
 		m = (1 << i);
 		s = s == 0 ? (n & m) ? 1 : 0 : s;
