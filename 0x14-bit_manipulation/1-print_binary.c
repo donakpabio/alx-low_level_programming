@@ -1,10 +1,5 @@
 #include "main.h"
 
-char *int_to_binary(unsigned long int n)
-{
-	return NULL;
-}
-
 /**
  * print_binary - Do something
  * @n: input
