@@ -1,4 +1,3 @@
-#include <limits.h>
 #include "main.h"
 
 /**
@@ -24,7 +23,7 @@ void print_binary(unsigned long int n)
 			} else
 			{
 				if (h)
-				{			
+				{
 					printf("0");
 				}
 			}
