@@ -10,7 +10,7 @@ void print_binary(unsigned long int n)
 	int i;
 	int s;
 
-	i = 50;
+	i = 35;
 	s = 0;
 	while (i >= 0)
 	{
