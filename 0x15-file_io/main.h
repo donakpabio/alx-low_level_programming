@@ -13,6 +13,11 @@
 #include <fcntl.h>
 #endif
 
+#ifndef UNISTD_H
+#define UNISTD_H
+#include <unistd.h>
+#endif
+
 #ifndef READ_TEXTFILE_H
 #define READ_TEXTFILE_H
 /**
