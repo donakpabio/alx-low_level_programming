@@ -11,7 +11,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char *text;
 	int fd;
-	ssize_t size;
+	int size;
 
 	if (filename == NULL)
 	{
@@ -19,7 +19,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 
 
-	text = calloc(letters, sizeof(char));
+	text = (char *) malloc((int)letters * sizeof(char));
 	if (text == NULL)
 	{
 		return (0);
@@ -33,7 +33,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 
 	size = read(fd, text, letters);
-	printf("%s", text);
-	free(text);
-	return (size);
+	size = write(1, text, size);
+	close(fd);
+	return (size/sizeof(char));
 }
