@@ -35,5 +35,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	size = read(fd, text, letters);
 	size = write(1, text, size);
 	close(fd);
-	return (size/sizeof(char));
+	return (size / sizeof(char));
 }
