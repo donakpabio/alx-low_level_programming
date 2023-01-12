@@ -52,6 +52,16 @@ size_t dlistint_len(const dlistint_t *h);
 dlistint_t *last_node(dlistint_t *head);
 #endif
 
+#ifndef FREE_DLISTINT_H
+#define FREE_DLISTINT_H
+/**
+ * free_dlistint - Do something
+ * @head: input
+ * Return: result
+ */
+void free_dlistint(dlistint_t *head);
+#endif
+
 #ifndef ADD_DNODEINT_END_H
 #define ADD_DNODEINT_END_H
 /**
