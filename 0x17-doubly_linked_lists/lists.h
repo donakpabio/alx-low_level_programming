@@ -52,6 +52,16 @@ size_t dlistint_len(const dlistint_t *h);
 dlistint_t *last_node(dlistint_t *head);
 #endif
 
+#ifndef SUM_DLISTINT_H
+#define SUM_DLISTINT_H
+/**
+ * sum_dlistint - Do something
+ * @head: input
+ * Return: result
+ */
+int sum_dlistint(const dlistint_t *head);
+#endif
+
 #ifndef NODE_AT_H
 #define NODE_AT_H
 /**
