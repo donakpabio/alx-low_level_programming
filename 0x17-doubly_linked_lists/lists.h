@@ -31,3 +31,13 @@ typedef struct dlistint_s
  */
 size_t print_dlistint(const dlistint_t *h);
 #endif
+
+#ifndef DLISTINT_LEN_H
+#define DLISTINT_LEN_H
+/**
+ * dlistint_len - Do something
+ * @h: input
+ * Return: result
+ */
+size_t dlistint_len(const dlistint_t *h);
+#endif
