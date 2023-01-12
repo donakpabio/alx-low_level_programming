@@ -41,3 +41,24 @@ size_t print_dlistint(const dlistint_t *h);
  */
 size_t dlistint_len(const dlistint_t *h);
 #endif
+
+#ifndef LAST_NODE_H
+#define LAST_NODE_H
+/**
+ * last_node - Do something
+ * @head: input
+ * Return: result
+ */
+dlistint_t *last_node(dlistint_t *head);
+#endif
+
+#ifndef ADD_DNODEINT_END_H
+#define ADD_DNODEINT_END_H
+/**
+ * add_dnodeint_end - Do something
+ * @head: input
+ * @n: input
+ * Return: result
+ */
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
+#endif
