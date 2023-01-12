@@ -52,6 +52,29 @@ size_t dlistint_len(const dlistint_t *h);
 dlistint_t *last_node(dlistint_t *head);
 #endif
 
+#ifndef NODE_AT_H
+#define NODE_AT_H
+/**
+ * node_at - Do something
+ * @head: input
+ * @c: counter
+ * @at: at
+ * Return: result
+ */
+dlistint_t *node_at(dlistint_t *head, int c, int at);
+#endif
+
+#ifndef GET_DNODEINT_AT_INDEX_H
+#define GET_DNODEINT_AT_INDEX_H
+/**
+ * get_dnodeint_at_index - Do something
+ * @head: input
+ * @index: input
+ * Return: result
+ */
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
+#endif
+
 #ifndef FREE_DLISTINT_H
 #define FREE_DLISTINT_H
 /**
