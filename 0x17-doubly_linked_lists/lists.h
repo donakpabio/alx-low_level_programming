@@ -52,6 +52,18 @@ size_t dlistint_len(const dlistint_t *h);
 dlistint_t *last_node(dlistint_t *head);
 #endif
 
+#ifndef INSERT_DNODEINT_AT_INDEX_H
+#define INSERT_DNODEINT_AT_INDEX_H
+/**
+ * insert_dnodeint_at_index - Do something
+ * @head: input
+ * @idx: input
+ * @n: input
+ * Return: result
+ */
+dlistint_t *insert_dnodeint_at_index(dlistint_t **head, unsigned int idx, int n);
+#endif
+
 #ifndef SUM_DLISTINT_H
 #define SUM_DLISTINT_H
 /**
