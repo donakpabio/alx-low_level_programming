@@ -8,7 +8,7 @@
  * @at: at
  * Return: result
  */
-listint_t *node_at(listint_t *head, int c, int at)
+dlistint_t *node_at(dlistint_t *head, int c, int at)
 {
 	if (head == NULL)
 	{
@@ -58,6 +58,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	}
 	d = at->next;
 	at->next = d->next;
+	(d->next)->prev = at;
 	free(d);
 	return (1);
 }

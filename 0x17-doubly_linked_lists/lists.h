@@ -128,3 +128,14 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n);
 #endif
+
+#ifndef DELETE_DNODEINT_AT_INDEX_H
+#define DELETE_DNODEINT_AT_INDEX_H
+/**
+ * delete_dnodeint_at_index - Do something
+ * @head: input
+ * @index: input
+ * Return: result
+ */
+int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
+#endif
