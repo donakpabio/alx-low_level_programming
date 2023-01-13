@@ -30,12 +30,12 @@ dlistint_t *node_at(dlistint_t *head, int c, int at)
 
 /**
  * insert_dnodeint_at_index - Do something
- * @head: input
+ * @h: input
  * @idx: input
  * @n: input
  * Return: result
  */
-dlistint_t *insert_dnodeint_at_index(dlistint_t **head, unsigned int idx, int n)
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *new;
 	dlistint_t *at;
@@ -50,21 +50,21 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **head, unsigned int idx, int n)
 	}
 
 	new->n = n;
-	at = node_at(*head, 0, index - 1);
+	at = node_at(*h, 0, index - 1);
 	if (at == NULL)
 	{
 		if (index != 0)
 		{
 			return (NULL);
 		}
-		d = *head;
+		d = *h;
 		if (d != NULL)
 		{
 			d->prev = new;
 		}
 		new->next = d;
 		new->prev = NULL;
-		*head = new;
+		*h = new;
 		return (new);
 	}
 

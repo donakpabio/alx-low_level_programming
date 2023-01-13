@@ -56,12 +56,12 @@ dlistint_t *last_node(dlistint_t *head);
 #define INSERT_DNODEINT_AT_INDEX_H
 /**
  * insert_dnodeint_at_index - Do something
- * @head: input
+ * @h: input
  * @idx: input
  * @n: input
  * Return: result
  */
-dlistint_t *insert_dnodeint_at_index(dlistint_t **head, unsigned int idx, int n);
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 #endif
 
 #ifndef SUM_DLISTINT_H
