@@ -117,3 +117,14 @@ void free_dlistint(dlistint_t *head);
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
 #endif
+
+#ifndef ADD_DNODEINT_H
+#define ADD_DNODEINT_H
+/**
+ * add_dnodeint - Do something
+ * @head: input
+ * @n: input
+ * Return: result
+ */
+dlistint_t *add_dnodeint(dlistint_t **head, const int n);
+#endif
