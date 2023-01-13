@@ -1,4 +1,3 @@
-#include <string.h>
 #include <stdlib.h>
 #include "lists.h"
 
@@ -19,14 +18,13 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 		return (NULL);
 	}
 	d = *head;
-	new->n = n;
-	new->prev = NULL;
-	new->next = d;
-	if (head != NULL)
+	if (d != NULL)
 	{
 		d->prev = new;
 	}
+	new->n = n;
+	new->prev = NULL;
+	new->next = d;
 	*head = new;
 	return (new);
 }
-
